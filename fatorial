@@ -3,7 +3,8 @@ program Fatorial;
 uses crt;
 
 var
-    n, i, fat : integer;
+    n, i : integer;
+    fat : longint;
  
 
 begin
