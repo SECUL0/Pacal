@@ -1,0 +1,23 @@
+program Fatorial;
+
+uses crt;
+
+var
+    n, i, fat : integer;
+ 
+
+begin
+    clrscr;
+        write('Digite um número natual: ');
+    readln(n);
+    
+    fat :=1;
+    
+    for i:=1 to n do
+   
+    begin
+        fat := fat*i;    
+    end;
+    
+    writeln('O fatorial de ', n, ' é ', fat);
+end.
